@@ -62,6 +62,16 @@ AI 분석 결과를 JSON Payload로 구성해 FastAPI 서버와 PostgreSQL에 �
 - 외부 API `502`·`504` 오류 분석 및 분할 수집 방식 적용
 - 지도 GeoJSON 경량화를 통한 로딩 데이터 크기 개선
 
+
+### 박경수 — Backend 2 · DB 및 서비스 API
+
+- FastAPI 기반 백엔드 서버 및 라우터 구성
+- PostgreSQL · SQLAlchemy 기반 DB 연결 및 모델 설계
+- Backend 1 분석 결과 수신용 Pipeline API 구현
+- 이슈·키워드·트렌드·지역 순위 데이터 DB 저장
+- 대시보드 목록·상세 및 지도 분석 API 구현
+- 통합 검색·자동완성·이슈 조회 API 구현
+- 프론트엔드 연동을 위한 응답 데이터 구조 및 Payload 구성
 ---
 
 ## 기술 스택
